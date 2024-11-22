@@ -5,7 +5,7 @@ pipeline {
         DOCKER_REGISTRY = "namanrajani" // Replace with your Docker registry URL
         DOCKER_IMAGE = "studySphere"         // Replace with your image name
         DOCKER_TAG = "${GIT_COMMIT}"              // Tag the image with the Git commit hash
-        DOCKER_CREDENTIALS = 'dckr_pat_SW-McoaA53Y7O6HIZqiAO-VavpE' // Jenkins credentials ID for Docker registry
+        DOCKER_CREDENTIALS = 'docker_pswd' // Jenkins credentials ID for Docker registry
     }
 
     stages {
